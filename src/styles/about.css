@@ -1,0 +1,55 @@
+.img-bannier-propos {
+    filter: brightness(70%);
+    border-radius: 25px;
+}
+
+.aboutConteiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutConteiner .btnCollapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+}
+
+.aboutConteiner .collapseConteiner {
+    height: 720px;
+}
+
+.collapseConteiner {
+    width: 73%;
+    margin-left: 150px;
+    margin-top: 23px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .aboutConteiner {
+        width: 335px;
+    }
+
+    .aboutConteiner .collapseConteiner {
+        height: 735px;
+    }
+
+    .aboutConteiner img {
+        margin-left: 0px;
+    }
+
+    .collapseConteiner {
+        width: 335px;
+        margin-left: 0px;
+        margin-top: 23px;
+    }
+
+    .collapseConteiner p {
+        font-size: 12px;
+        padding-top: 18px;
+    }
+
+
+}

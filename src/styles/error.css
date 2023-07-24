@@ -1,0 +1,62 @@
+.errorMsg h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF6060;
+    margin-top: 170px;
+    margin-bottom: 66px;
+}
+
+.errorMsg p {
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.homeLink {
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+
+.errorMsg {
+    margin-bottom: 159px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .errorMsg {
+        margin-bottom: 235px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Montserrat';
+    }
+
+    .errorMsg h1 {
+        font-size: 96px;
+        margin-top: 190px;
+        margin-bottom: 11px;
+    }
+
+    .errorMsg p {
+        font-size: 18px;
+        margin-bottom: 133px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+    }
+
+    .homeLink {
+        font-size: 14px;
+        margin-top: 133px;
+    }
+
+}

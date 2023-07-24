@@ -1,0 +1,29 @@
+footer {
+    width: 110%;
+    height: 209px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    position: absolute;
+    left: -80px;
+}
+
+.img-logo-footer {
+    width: 122px;
+    height: 39px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    footer {
+        width: 100%;
+        font-size: 12px;
+        left: 0px;
+        max-width: 420px;
+        min-width: 390px;
+    }
+}

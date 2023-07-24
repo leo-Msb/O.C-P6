@@ -1,0 +1,292 @@
+.equipmentsList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.houseContainer {
+    width: 100%;
+}
+
+.houseInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 180px;
+}
+
+.house-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FF6060;
+    width: 900px;
+}
+
+.house-title h1 {
+    display: flex;
+    justify-content: flex-start;
+    height: 51px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.house-title p {
+    display: flex;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.equipmentsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.equipmentsList li {
+    display: flex;
+    width: 115px;
+    height: 25px;
+    border: 1px solid #FF6060;
+    color: #FFFFFF;
+    background-color: #FF6060;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.hostConteiner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.hostInfo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-host {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.hostConteiner h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+}
+
+.hostNote {
+    margin-top: 27px;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    color: red;
+}
+
+.star .filled {
+    color: gold;
+}
+
+.houseCollapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 72px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 320px;
+}
+
+.houseCollapse .collapseModule {
+    width: 582px;
+}
+
+.equipmentsListHouse {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.equipmentsListHouse li {
+    font-size: 18px;
+}
+
+.houseCollapse .openCollapse {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
+}
+
+.houseCollapse .toggle {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 12px;
+    min-height: 249px;
+    height: auto;
+    display: flex;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .houseContainer {
+        width: 335px;
+    }
+
+    .houseInfoContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        height: 150px;
+        width: 335px;
+    }
+
+    .house-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #FF6060;
+        width: 335px;
+    }
+
+    .house-title h1 {
+        height: 51px;
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .house-title p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .equipmentsList {
+        margin-top: 10px;
+    }
+
+    .equipmentsList li {
+        width: 84px;
+        height: 18px;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .hostConteiner {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        justify-items: center;
+        margin-top: 0px;
+    }
+
+    .hostNote {
+        margin-top: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .star {
+        width: 13px;
+        height: 13px;
+        margin-left: 6px;
+    }
+
+    .img-host {
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+        margin-left: 15px;
+    }
+
+    .hostConteiner h2 {
+        font-size: 12px;
+        width: 93px;
+        height: 33px;
+        padding-top: 10px;
+    }
+
+    .hostInfo {
+        align-items: center;
+    }
+
+    .houseCollapse {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 335px;
+        gap: 10px;
+        margin-top: 16px;
+        margin-bottom: 0px;
+        height: 400px;
+        align-items: stretch;
+    }
+
+    .houseCollapse .collapseModule {
+        width: 335px;
+        margin-bottom: 0px;
+    }
+
+    .houseCollapse button {
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 15px;
+    }
+
+    .houseCollapse img {
+        margin-left: 0px;
+        width: 16px;
+        height: 10px;
+    }
+
+    .houseCollapse .toggle {
+        padding-top: 17px;
+        padding-left: 11px;
+        padding-right: 12px;
+        height: 143px;
+        height: auto;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .houseCollapse .openCollapse {
+        margin-bottom: 20px;
+
+    }
+
+
+}

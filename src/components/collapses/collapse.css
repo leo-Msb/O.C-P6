@@ -1,0 +1,51 @@
+.collapseModule {
+    margin-bottom: 33px;
+}
+
+.btnCollapse {
+    width: 100%;
+    max-width: 1023px;
+    height: 47px;
+    background-color: #FF6060;
+    border-radius: 10px;
+    border: 0px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-left: 20px;
+}
+
+.btnCollapse img {
+    margin-left: 400px;
+}
+
+.openCollapse {
+    max-width: 1023px;
+    background: #F6F6F6;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0em;
+    color: #FF6060;
+    text-align: left;
+}
+
+
+.toggle p {
+    margin: 0px;
+    padding-top: 27px;
+    padding-bottom: 19px;
+    padding-left: 18px;
+    padding-right: 27px;
+}
+
+.equipmentsListHouse li {
+    list-style-type: none;
+}
+
+.equipmentsListHouse .toggle {
+    padding-top: 30px;
+}
