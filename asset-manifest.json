@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/O.C-P6/static/css/main.69280ef8.css",
+    "main.js": "/O.C-P6/static/js/main.6cb19121.js",
+    "static/media/img-propos.png": "/O.C-P6/static/media/img-propos.4e108f67418694b4d9db.png",
+    "static/media/img-bannier-home.png": "/O.C-P6/static/media/img-bannier-home.7548b2a7d4de41ae5d51.png",
+    "static/media/Logo.svg": "/O.C-P6/static/media/Logo.bb1c78bdbf97911cf6044e13e0c4f670.svg",
+    "index.html": "/O.C-P6/index.html",
+    "main.69280ef8.css.map": "/O.C-P6/static/css/main.69280ef8.css.map",
+    "main.6cb19121.js.map": "/O.C-P6/static/js/main.6cb19121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69280ef8.css",
+    "static/js/main.6cb19121.js"
+  ]
+}
