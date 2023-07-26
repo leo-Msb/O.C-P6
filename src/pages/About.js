@@ -1,6 +1,9 @@
 import React from "react";
+import Header from "../components/header/Header";
+import imgPropos from "../assets/img-propos.png";
 import "../styles/about.css";
 import Collapsible from "../components/collapses/Collapsible";
+import Footer from "../components/footer/Footer";
 import Banner from "../components/banner/Banner";
 
 const Propos = () => {

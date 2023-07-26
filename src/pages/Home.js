@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/header/Header";
 import Cards from "../components/cards/Cards";
 import "../styles/home.css";
 import { useFetch } from "../hooks/useFetch";

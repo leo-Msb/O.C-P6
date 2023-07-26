@@ -26,10 +26,6 @@
     letter-spacing: 0em;
 }
 
-.errorMsg {
-    margin-bottom: 159px;
-}
-
 @media screen and (max-width: 1024px) {
 
     .errorMsg {

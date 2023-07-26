@@ -133,10 +133,6 @@
     padding-left: 0px;
 }
 
-.equipmentsListHouse li {
-    font-size: 18px;
-}
-
 .houseCollapse .openCollapse {
     display: flex;
     align-items: center;
@@ -146,14 +142,12 @@
 }
 
 .houseCollapse .toggle {
-    padding-top: 25px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 12px;
-    min-height: 249px;
-    height: auto;
+    height: 249px;
     display: flex;
 }
-
 
 @media screen and (max-width: 1024px) {
 
